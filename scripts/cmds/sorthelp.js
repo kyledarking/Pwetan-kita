@@ -1,19 +1,15 @@
 module.exports = {
 	config: {
 		name: "sorthelp",
-		version: "1.1",
+		version: "1.2",
 		author: "NTKhang",
 		countDown: 5,
-		role: 1,
-		shortDescription: {
+		role: 0,
+		description: {
 			vi: "Sắp xếp danh sách help",
 			en: "Sort help list"
 		},
-		longDescription: {
-			vi: "Sắp xếp danh sách help",
-			en: "Sort help list"
-		},
-		category: "owner",
+		category: "image",
 		guide: {
 			en: "{pn} [name | category]"
 		}

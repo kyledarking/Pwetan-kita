@@ -7,19 +7,15 @@ module.exports = {
 	config: {
 		name: "customrankcard",
 		aliases: ["crc", "customrank"],
-		version: "1.11",
+		version: "1.12",
 		author: "NTKhang",
 		countDown: 5,
-		role: 1,
-		shortDescription: {
-			vi: "Thiết kế thẻ rank",
-			en: "Design rank card"
-		},
-		longDescription: {
+		role: 0,
+		description: {
 			vi: "Thiết kế thẻ rank theo ý bạn",
 			en: "Design rank card by your own"
 		},
-		category: "owner",
+		category: "rank",
 		guide: {
 			vi: {
 				body: "   {pn} [maincolor | subcolor | linecolor | expbarcolor | progresscolor | alphasubcolor | textcolor | namecolor | expcolor | rankcolor | levelcolor | reset] <value>"

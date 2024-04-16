@@ -4,19 +4,15 @@ module.exports = {
 	config: {
 		name: "setleave",
 		aliases: ["setl"],
-		version: "1.6",
+		version: "1.7",
 		author: "NTKhang",
 		countDown: 5,
-		role: 2,
-		shortDescription: {
-			vi: "Chỉnh sửa nội dung tin nhắn tạm biệt",
-			en: "Edit leave message"
-		},
-		longDescription: {
+		role: 0,
+		description: {
 			vi: "Chỉnh sửa nội dung/bật/tắt tin nhắn tạm biệt thành viên rời khỏi nhóm chat của bạn",
 			en: "Edit content/turn on/off leave message when member leave your group chat"
 		},
-		category: "box chat",
+		category: "custom",
 		guide: {
 			vi: {
 				body: "   {pn} on: Bật tin nhắn tạm biệt"

@@ -5,19 +5,15 @@ const { drive } = global.utils;
 module.exports = {
 	config: {
 		name: "rankup",
-		version: "1.2",
+		version: "1.3",
 		author: "NTKhang",
 		countDown: 5,
-		role: 2,
-		shortDescription: {
+		role: 0,
+		description: {
 			vi: "Bật/tắt thông báo level up",
 			en: "Turn on/off level up notification"
 		},
-		longDescription: {
-			vi: "Bật/tắt thông báo level up",
-			en: "Turn on/off level up notification"
-		},
-		category: "owner",
+		category: "rank",
 		guide: {
 			en: "{pn} [on | off]"
 		},

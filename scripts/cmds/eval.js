@@ -3,15 +3,11 @@ const { removeHomeDir, log } = global.utils;
 module.exports = {
 	config: {
 		name: "eval",
-		version: "1.5",
+		version: "1.6",
 		author: "NTKhang",
 		countDown: 5,
-		role: 1,
-		shortDescription: {
-			vi: "Test code nhanh",
-			en: "Test code quickly"
-		},
-		longDescription: {
+		role: 2,
+		description: {
 			vi: "Test code nhanh",
 			en: "Test code quickly"
 		},

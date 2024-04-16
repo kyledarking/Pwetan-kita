@@ -4,16 +4,11 @@ const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
 module.exports = {
 	config: {
 		name: "adduser",
-		version: "1.4",
-   aliases: ["ad"],
+		version: "1.5",
 		author: "NTKhang",
 		countDown: 5,
-		role: 0,
-		shortDescription: {
-			vi: "Thêm thành viên vào box chat",
-			en: "Add user to box chat"
-		},
-		longDescription: {
+		role: 1,
+		description: {
 			vi: "Thêm thành viên vào box chat của bạn",
 			en: "Add user to box chat of you"
 		},
