@@ -19,13 +19,13 @@ module.exports = {
 			defaultLeaveMessage: "{userName} đã {type} khỏi nhóm"
 		},
 		en: {
-			session1: "ᴍᴏʀɴɪɴɢ",
-			session2: "ɴᴏᴏɴ",
-			session3: "ᴀғᴛᴇʀɴᴏᴏɴ",
-			session4: "ᴇᴠᴇɴɪɴɢ",
-			leaveType1: "ɪ ᴅᴏɴ'ᴛ ᴄᴀʀᴇ ɪғ ʏᴏᴜ ʟᴇғᴛ",
-			leaveType2: "ᴛʜᴀᴛ's ʏᴏᴜʀ ᴘʀᴏʙʟᴇᴍ ғʀᴏᴍ ɢᴇᴛᴛɪɴɢ ᴋɪᴄᴋᴇᴅ ғʀᴏᴍ ᴛʜᴇ ɢʀᴏᴜᴘ",
-			defaultLeaveMessage: "{userName} {type} ᴛʜᴇ ɢʀᴏᴜᴘ"
+			session1: "𝙢𝙤𝙧𝙣𝙞𝙣𝙜",
+			session2: "𝙣𝙤𝙤𝙣",
+			session3: "𝙖𝙛𝙩𝙚𝙧𝙣𝙤𝙤𝙣",
+			session4: "𝙚𝙫𝙚𝙣𝙞𝙣𝙜",
+			leaveType1: "𝙡𝙚𝙛𝙩",
+			leaveType2: "𝙬𝙖𝙨 𝙠𝙞𝙘𝙠𝙚𝙙 𝙛𝙧𝙤𝙢",
+			defaultLeaveMessage: "━━━━━━━━━━━━━━━━━━\n𝙂𝙤𝙤𝙙 𝘽𝙮𝙚 𝙣𝙞𝙜𝙜𝙖 {userName}\n📜𝙍𝙚𝙖𝙨𝙤𝙣: {type} 𝙩𝙝𝙚 𝙜𝙧𝙤𝙪𝙥\n𝙎𝙚𝙚 𝙮𝙤𝙪 𝙖𝙜𝙖𝙞𝙣:>\n━━━━━━━━━━━━━━━━━━"
 		}
 	},
 
