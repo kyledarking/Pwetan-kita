@@ -2,7 +2,7 @@ const { getStreamsFromAttachment } = global.utils;
 
 module.exports = {
   config: {
-    name: "ownernoti",
+    name: "noti2",
     aliases: ["ownernoti"],
     version: "1.7",
     author: "NTKhang / Aesther",
@@ -47,7 +47,7 @@ module.exports = {
     if (!args[0])
       return message.reply(getLang("missingMessage"));
     const formSend = {
-      body: `${getLang("notification")}\n𝗜𝗠𝗣𝗢𝗥𝗧𝗔𝗡𝗧 𝗠𝗘𝗦𝗦𝗔𝗚𝗘\n✦━━━━━━━━━━━━━━━━━✦\n》${args.join(" ")}\n✦━━━「 𝗠𝗥𝗞𝗜𝗠𝗦𝗧𝗘𝗥𝗦 」━━━✦`,
+      body: `${getLang("notification")}\n 📬𝗠𝗘𝗦𝗦𝗔𝗚𝗘\n◉━━━━━━━━━━━━━━━━━◉\n》${args.join(" ")}\n❍━━━「 𝗞𝗬𝗟𝗘 𝗕𝗔𝗜𝗧-𝗜𝗧 」━━━❏`,
       attachment: await getStreamsFromAttachment(
         [
           ...event.attachments,
