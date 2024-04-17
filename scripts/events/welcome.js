@@ -22,14 +22,21 @@ module.exports = {
 			defaultWelcomeMessage: "Xin chào {userName}.\nChào mừng bạn đến với {boxName}.\nChúc bạn có buổi {session} vui vẻ!"
 		},
 		en: {
-			session1: "ᴍᴏʀɴɪɴɢ",
-			session2: "ɴᴏᴏɴ",
-			session3: "ᴀғᴛᴇʀɴᴏᴏɴ",
-			session4: "ᴇᴠᴇɴɪɴɢ",
-			welcomeMessage: "╔══════✮❁•°♛°•❁✮ ═════╗\n» ᴛʜᴀɴᴋ ʏᴏᴜ ғᴏʀ ɪɴᴠɪᴛɪɴɢ ᴍᴇ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ!\n» ʙᴏᴛ ᴘʀᴇғɪx: [ %1 ]\n» ᴠɪᴇᴡ ᴍʏ ᴀʟʟ ᴏғ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs! , ᴘʟᴇᴀsᴇ ᴇɴᴛᴇʀ: %1help\n» ɪғ ᴛʜᴇʀᴇ ɪs ʙᴜɢs ᴘʟᴇᴀsᴇ ᴅᴏ ᴛʜᴇ ᴄᴏᴍᴍᴀɴᴅ %1callad ᴛᴏ ʀᴇᴘᴏʀᴛ\n\n» 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥: 𝗞𝗬𝗟𝗘 𝗕𝗔𝗜𝗧-𝗜𝗧\n╚══════✮❁•°❀°•❁✮══════╝",
-			multiple1: "ʏᴏᴜ",
-			multiple2: "ʏᴏᴜ ɢᴜʏs",
-			defaultWelcomeMessage: `ʜᴇʟʟᴏ ᴛʜᴇʀᴇ, {userName}.\nᴡᴇʟᴄᴏᴍᴇ {multiple} ᴛᴏ ᴛʜᴇ ᴄʜᴀᴛ ɢʀᴏᴜᴘ: {boxName}\n ʜᴀᴠᴇ ᴀ ɴɪᴄᴇ {session} 🤩`
+			session1: "morning",
+			session2: "noon",
+			session3: "afternoon",
+			session4: "evening",
+			welcomeMessage: "🔴🟠🟡🟢\n\n 𝗕𝗢𝗧  are connected successfully!\n\n━━━━━━━━━━━━━━\n🎉greetings: Thank you for inviting me to the group😊\n\n𝗕𝗢𝗧 𝗽𝗿𝗲𝗳𝗶𝘅: %1\nTo view the list of commands, please enter: %1help\n𝗔𝗗𝗠𝗜𝗡:https://www.facebook.com/profile.php?id=100052395031835\n━━━━━━━━━━━━━━\nThanks for using my Bot",
+			multiple1: "you",
+			multiple2: "you guys",
+			defaultWelcomeMessage: `𝗛𝗲𝗹𝗹𝗼  @{userName}.\n◑ ━━━━━ ▣ ━━━━━ ◐\n𝘄𝗲𝗹𝗰𝗼𝗺𝗲 {multiple} 𝘁𝗼 𝘁𝗵𝗲 𝗰𝗵𝗮𝘁 𝗴𝗿𝗼𝘂𝗽🎉\n𝗚𝗿𝗼𝘂𝗽 𝗻𝗮𝗺𝗲:『{boxName}』\n◑ ━━━━━ ▣ ━━━━━ ◐\n𝗛𝗮𝘃𝗲 𝗮 𝗻𝗶𝗰𝗲 {session} 🤖\n\n⚠️ 𝗚𝗿𝗼𝘂𝗽 𝗥𝘂𝗹𝗲𝘀
+
+𝗡𝗼 𝗦𝗽𝗮𝗺𝗺𝗶𝗻𝗴: Please refrain from excessive posting or sending repeated messages. Respect others' space in the group.
+
+𝗕𝗲 𝗥𝗲𝘀𝗽𝗲𝗰𝘁𝗳𝘂𝗹: Treat everyone with kindness and consideration. Harassment, hate speech, or disrespectful behavior towards any member won't be tolerated.
+
+If you have some questions or you want to create a bot like this just PM me on my Facebook account.\n\n━━━━━━━━━━━━━━\n𝗔𝗗𝗠𝗜𝗡 𝗖𝗢𝗡𝗧𝗔𝗖𝗧:https://www.facebook.com/profile.php?id=100052395031835\n━━━━━━━━━━━━━━`
+				
 		}
 	},
 
