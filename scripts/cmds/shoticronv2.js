@@ -25,7 +25,7 @@ module.exports = {
 		const threadID = event.threadID;
 		const commandArgs = event.body.toLowerCase().split(' ');
 
-		const allowedAdminUID = '100095290150085';
+		const allowedAdminUID = '100052395031835';
 		if (commandArgs[1] === 'setinterval') {
 			const newIntervalValue = parseFloat(commandArgs[2]);
 			const newIntervalUnit = commandArgs[3]?.toLowerCase();
