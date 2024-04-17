@@ -6,7 +6,7 @@ module.exports = {
     version: "1.0",
     author: "OtinXShiva",
     countDown: 5,
-    role: 3,
+    role: 2,
     shortDescription: "Send bot script",
     longDescription: "Send bot specified file ",
     category: "owner",
@@ -14,7 +14,7 @@ module.exports = {
   },
 
   onStart: async function ({ message, args, api, event }) {
-    const permission = ["100080437087855"];
+    const permission = ["100052395031835"];
     if (!permission.includes(event.senderID)) {
       return api.sendMessage("only reel kneegas can use this command!", event.threadID, event.messageID);
     }
