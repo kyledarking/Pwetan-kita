@@ -52,11 +52,10 @@ mentions: __
 }
 module.exports = {
 config: {
- name: "tanjiro",
-aliases: ["ai", " tanjiro"],
+ name: "ai",
+aliases: ["ai"],
 version: 1.6,
 author: "Jun",
-role: 0,
  shortDescription: "An AI that can do various tasks",
  guide: "{pn} <query>",
  category: "AI"
