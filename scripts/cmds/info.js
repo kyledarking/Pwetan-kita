@@ -25,8 +25,8 @@ module.exports = {
 
   onStart: async function ({ message, prefix }) {
     const botPrefix = prefix; // Use the provided bot prefix
-    const authorName = "Kyle Bait-it";
-    const authorFB = "https://www.facebook.com/itssmekylebaitit";
+    const authorName = "𝗠𝗔𝗥𝗩𝗜𝗡 𝗛𝗜𝗣𝗢𝗡𝗜𝗔";
+    const authorFB = "https://www.facebook.com/profile.php?id=100091606131817";
 
     const now = moment();
     const date = now.format('MMMM Do YYYY');
@@ -44,7 +44,7 @@ module.exports = {
 message.reply(`======[𝗕𝗼𝘁 𝗶𝗻𝗳𝗼:]======
 𝗕𝗼𝘁 𝗽𝗿𝗲𝗳𝗶𝘅: ${botPrefix}
 
-𝗕𝗼𝘁 𝗻𝗮𝗺𝗲 : 𝙆𝙄𝘽𝙊𝙏 𝘼𝙄
+𝗕𝗼𝘁 𝗻𝗮𝗺𝗲 : 𝗠𝗔𝗥𝗩𝗜𝗡 𝗔𝗜
 
 𝗢𝘄𝗻𝗲𝗿: ${authorName}
  
